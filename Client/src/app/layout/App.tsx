@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from 'react'
-import './App.css'
 import axios from 'axios';
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
   useEffect(() => {
     axios.get('http://localhost:5213/api/activities')
       .then(response => {
-        console.log(response.data);
-        
+
         setActivities(response.data);
       });
       
