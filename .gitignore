@@ -484,3 +484,6 @@ $RECYCLE.BIN/
 *.swp
 API/reactivities.db-shm
 API/reactivities.db-wal
+**/[Bb]in/
+**/[Oo]bj/**
+.vs/
